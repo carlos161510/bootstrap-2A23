@@ -8,21 +8,34 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!--nesting: são os níveis de classes.-->
-<div class="container">
-    <div class="row">
-        <div class="bg col-12">Nível 1
-            <div class="row">
-                <div class="bg col-8">Nível 2
-                    <div class="row">
-                        <div class="bg col-3">Nível 3</div>
-                        <div class="bg col-9">Nível 3</div>
-                    </div>
-                </div>
-                <div class="bg col-4">Nível 2</div>
-            </div>
-        </div>
+   
+<div class="container"> 
+   <div class="d-flex">
+        <!--abre o flexbox-->
+        <div class="p-2">2</div>
+        <div class="p-3">3</div>
+        <div class="p-4">4</div>
+        <!-- p espaçamento interno-->
+    </div> 
+    <div class="d-flex"> 
+        <div class="p-2">2</div>
+        <div class="p-3">3</div>
+        <div class="p-4">4</div> 
+    </div> 
+
+    <div class="d-inline-flex">
+        <div class="p-2">2</div>
+        <div class="p-3">3</div>
+        <div class="p-4">4</div>
     </div>
+    <!--d-inline-flex adicionar um ao lado do outro-->
+
+    <div class="d-inline-flex">
+        <div class="p-2">2</div>
+        <div class="p-3">3</div>
+        <div class="p-4">4</div>
+    </div>
+    
 </div>
   
 
